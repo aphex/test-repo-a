@@ -6,7 +6,7 @@
         "install": "my_mondo_stuff",
         "packages": "pkgs",
         "uses": {
-            "test-repo-c": {
+            "fancy-pants": {
                 "repository": "aphex/test-repo-c"
             }
         }
