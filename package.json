@@ -8,6 +8,9 @@
         "uses": {
             "fancy-pants": {
                 "repository": "aphex/test-repo-c"
+            },
+            "test-repo-b": {
+                "repository": "aphex/test-repo-b"
             }
         }
     }
