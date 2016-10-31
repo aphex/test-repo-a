@@ -2,7 +2,13 @@
     "name": "test-repo-a",
     "private": true,
     "mondo": {
+        "name": "my-test-repo",
         "install": "my_mondo_stuff",
-        "packages": "pkgs"
+        "packages": "pkgs",
+        "uses": {
+            "test-repo-c": {
+                "repository": "aphex/test-repo-c"
+            }
+        }
     }
 }
